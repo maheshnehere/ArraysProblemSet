@@ -11,6 +11,22 @@ public class PrintDash {
             System.out.println();
         }
 
+        // find average of elements in array
+
+        int [] num = {1,3,4,3,6,7,3};
+        int sum =0;
+        int count =0;
+
+        for (int i = 0; i < num.length; i++) {
+            count++;
+            sum+=num[i];
+
+        }
+
+        int average = sum/count;
+
+        System.out.println(" Average of num is: "+average);
+
 
     }
 }
